@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Small Business</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #d26f6f;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            flex: 1 1 300px;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .empresa {
+            flex: 1 1 300px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+
+        }
+
+        footer {
+            background-color: #d26f6f;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .product {
+                flex: 1 1 100%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Lifefresh</h1>
+        <p> Seja bem-vindo! :) </p>
+    </header>
+
+    <section>
+        <div class="empresa">
+            <h2>Sobre nós</h2>
+            <p>Bem-vindo à LifeFresh, onde unimos o melhor da dieta mediterrânea e asiática para criar uma experiência culinária única. Nossos pratos oferecem uma fusão equilibrada de ingredientes frescos e sabores intensos. Na LifeFresh, acreditamos que a alimentação saudável pode ser deliciosa, e cada refeição é uma celebração do bem-estar e do prazer gastronômico. Explore uma jornada única conosco, onde cuidamos da sua saúde através de uma experiência gastronômica excepcional.</p>
+        </div>
+    </section>
+    <section>
+        <div class="product">
+            <h2>Conheça: Kit de Refeições Fusion</h2>
+            <p>Um kit que oferece ingredientes frescos e porções pré-medidas para a preparação de refeições que combinam sabores mediterrâneos e asiáticos. Inclui receitas exclusivas que destacam a diversidade e a saudabilidade de ambas as culinárias.</p>
+        </div>
+    </section>
+<section>
+    <div class="product">
+        <h2>Conheça: Seleção de Molhos Exclusivos</h2>
+        <p>Uma linha de molhos artesanais inspirados nas tradições mediterrâneas e asiáticas, cuidadosamente elaborados para realçar o sabor de qualquer prato. Desde molhos leves e cítricos até opções mais intensas e aromáticas, essa seleção proporcionará versatilidade e autenticidade às refeições.</p>
+    </div>
+</section>
+
+<section>
+    <div class="product">
+        <h2>Conheça: Caixa de Snacks Nutritivos</h2>
+        <p>Uma variedade de snacks saudáveis, como mix de frutas secas, nuts e crackers, incorporando ingredientes característicos das dietas mediterrânea e asiática. Ideal para quem busca opções nutritivas para lanches entre as refeições.</p>
+    </div>
+</section>
+
+<section>
+    <div class="product">
+        <h2>Conheça: Programa de Refeições Semanais</h2>
+        <p>Um serviço de assinatura que fornece refeições balanceadas e saborosas para toda a semana, inspiradas nas práticas alimentares mediterrâneas e asiáticas. Inclui pratos variados, como saladas frescas, pratos principais e acompanhamentos, entregues prontos para consumo.</p>
+    </div>
+</section>
+           
+
+    <form>
+        <h2>Quer saber mais? Entre em contato conosco!</h2>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+    <p>&copy; 2024 Lifefresh. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
